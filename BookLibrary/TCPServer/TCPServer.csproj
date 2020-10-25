@@ -13,4 +13,10 @@
     <ProjectReference Include="..\BookLibrary\BookLibrary.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="BookLibrary">
+      <HintPath>..\BookLibrary\bin\Debug\netcoreapp3.1\BookLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
